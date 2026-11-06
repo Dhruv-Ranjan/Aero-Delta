@@ -1,0 +1,10 @@
+AeroDelta-4 computational project summary
+area_m2=0.787500
+aspect_ratio=2.857143
+taper_ratio=0.166667
+induced_factor=0.125178
+weight_N=34.323275
+nominal_min_power_W=42.516261
+nominal_min_thrust_N=3.840304
+monte_carlo_accepted=10000
+monte_carlo_acceptance=1.000000
