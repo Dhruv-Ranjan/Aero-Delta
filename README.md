@@ -2,6 +2,23 @@
 
 Independent Project 4 implementation by **Dhruv Ranjan**. The project evaluates trim, speed, thrust required, and power required for a 3.5 kg cropped-delta UAV in steady level flight.
 
+## Project description
+
+Aero-Delta is a computational aerodynamic analysis of a cropped-delta unmanned aerial vehicle (UAV). The project evaluates the aircraft's lift, drag, trim, thrust, and power requirements across a range of angles of attack and flight speeds. It also examines how uncertainty in the aircraft and operating conditions affects performance at a representative angle of attack.
+
+The analysis combines a nominal flight-condition sweep with a Monte Carlo uncertainty study. The results are presented as tabulated data, summary metrics, and figures that support early-stage aerodynamic sizing, propulsion selection, and flight-envelope assessment.
+
+## Key results
+
+- Wing area: **0.7875 m²**
+- Aspect ratio: **2.857**
+- Taper ratio: **0.167**
+- Weight: **34.32 N**
+- Nominal minimum power required: **42.52 W**
+- Nominal minimum thrust required: **3.84 N**
+- Monte Carlo samples accepted: **10,000**
+- Monte Carlo acceptance rate: **100%**
+
 ## What is included
 
 - `build_project.py` — single source of truth for the model, plots, CSV exports, and Word report.
